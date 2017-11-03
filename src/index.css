@@ -13,8 +13,8 @@ body {
 }
 
 ul {
-    list-style: square;
-    padding: 0 1.5rem;
+    list-style: none;
+    padding: 0 0.5rem;
 }
 
 ul li {
@@ -27,9 +27,9 @@ ul li {
 .Left {
     position: fixed;
     top: 0;
-    right: 60%;
     bottom: 0;
     left: 0;
+    width: 36rem;
     padding: 1rem;
 }
 
@@ -40,7 +40,7 @@ ul li {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 40%;
+    left: 36rem;
     padding: 1rem;
     overflow-y: auto;
 }
@@ -54,7 +54,7 @@ ul li {
 }
 
 .Form {
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 1rem;
 }
 
 .Form input[type='text'],

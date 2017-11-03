@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import contract_fixed_supply from './contract_fixed_supply';
 import './index.css';
 
-const blurb = `Name       Sri
-Email      srirangan@gmail.com
-Domains    Blockchain, Fintech, Defense, Energy
+const blurb = `## About
+
+Name       Sri
 Location   Amsterdam, NL
+Email      srirangan@gmail.com
+Website    http://srirangan.net
 
 Programmer with 12+ years experience
 
@@ -44,7 +46,7 @@ class App extends React.Component {
     render() {
         const {show_upsell, show_smart_contract} = this.state;
         const left = <div className='Left'>
-            <h1 className='Title'>Generate ERC20 Token SmartContract</h1>
+            <h1 className='Title'>Generate ERC20 Token Smartcontracts</h1>
             {this.render_form()}
             {show_upsell && this.render_upsell()}
         </div>;
@@ -78,7 +80,6 @@ class App extends React.Component {
 
     render_upsell() {
         return <div className='Upsell'>
-            <h2 className='Title'>About the author</h2>
             <div className='Blurb'>{blurb}</div>
         </div>
     }

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Sans');
+
+* {
+    box-sizing: border-box;
+    font-family: PT Sans, sans serif;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 15px;
+}
+
+body {
+}
+
+ul {
+    list-style: square;
+    padding: 0 1.5rem;
+}
+
+ul li {
+    font-family: PT Mono, monospace;
+    white-space: pre;
+}
+
+.App {}
+
+.Left {
+    position: fixed;
+    top: 0;
+    right: 60%;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+.Right {
+    border-left: 1px dotted #999;
+    background: #eee;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 40%;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.Title {
+    font-family: PT Sans, display;
+    font-weight: bold;
+    color: #ccc;
+    margin: 1rem 1rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+.Form {
+    padding: 1rem;
+}
+
+.Form input[type='text'],
+.Form input[type='number'] {
+    display: block;
+    width: 100%;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.Form button  {
+    margin: 0.3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.Form ul {
+    margin: 1.2rem 0;
+}
+
+.Form ul li {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+}
+
+.Upsell {
+    margin-top: 3rem;
+}
+
+.Blurb {
+    padding: 1rem;
+    font-family: PT Mono, monospace;
+    color: #666;
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    white-space: pre;
+}
+
+.SmartContract {
+    color: #333;
+    font-family: PT Mono, monospace;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+    white-space: pre;
+    user-select: all;
+}
